@@ -1,7 +1,12 @@
 # d3WebpackBabel_boilerplate
 empty project initialized with d3, Webpack, and Babel. 
+with these commands the only thing that should need to be modified is the package.json file
+in the package.json file add the 2lines below to "scripts" 
+"webpack-dev-server": "webpack-dev-server",
+"webpack": "webpack"
 
-power shell commends used
+
+#powershell commends used
 
 npm init -y
 
@@ -12,5 +17,5 @@ npm i d3
 #builds project
 npm run webpack
 
-# runs with development web server
+#runs with development web server
 npm run webpack-dev-server
